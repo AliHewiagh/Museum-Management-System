@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DF9E2928-C8D8-4064-8824-9CCD341F9761}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InterfaceDesign</RootNamespace>
+    <AssemblyName>InterfaceDesign</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddPainting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddPainting.Designer.cs">
+      <DependentUpon>AddPainting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddStaff.Designer.cs">
+      <DependentUpon>AddStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AttendanceReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AttendanceReport.Designer.cs">
+      <DependentUpon>AttendanceReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AttendanceReportSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AttendanceReportSearch.Designer.cs">
+      <DependentUpon>AttendanceReportSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BuyTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuyTicket.Designer.cs">
+      <DependentUpon>BuyTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CashConfirmation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashConfirmation.Designer.cs">
+      <DependentUpon>CashConfirmation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateSchedule.Designer.cs">
+      <DependentUpon>CreateSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentQuantity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaymentQuantity.Designer.cs">
+      <DependentUpon>PaymentQuantity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemovePainting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemovePainting.Designer.cs">
+      <DependentUpon>RemovePainting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditPainting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditPainting.Designer.cs">
+      <DependentUpon>EditPainting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditStaff.Designer.cs">
+      <DependentUpon>EditStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertAttendance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertAttendance.Designer.cs">
+      <DependentUpon>InsertAttendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Painting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Painting.Designer.cs">
+      <DependentUpon>Painting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaintingSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaintingSearch.Designer.cs">
+      <DependentUpon>PaintingSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registrar.Designer.cs">
+      <DependentUpon>Registrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoveStaff.Designer.cs">
+      <DependentUpon>RemoveStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesReport.Designer.cs">
+      <DependentUpon>SalesReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesReportSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesReportSearch.Designer.cs">
+      <DependentUpon>SalesReportSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaffManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffManager.Designer.cs">
+      <DependentUpon>StaffManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuccessfulPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuccessfulPayment.Designer.cs">
+      <DependentUpon>SuccessfulPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TourGuide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TourGuide.Designer.cs">
+      <DependentUpon>TourGuide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesAgent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesAgent.Designer.cs">
+      <DependentUpon>SalesAgent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnsuccessfulPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnsuccessfulPayment.Designer.cs">
+      <DependentUpon>UnsuccessfulPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewPaintingSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewPaintingSearch.Designer.cs">
+      <DependentUpon>ViewPaintingSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaffSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffSearch.Designer.cs">
+      <DependentUpon>StaffSearch.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddPainting.resx">
+      <DependentUpon>AddPainting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddStaff.resx">
+      <DependentUpon>AddStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AttendanceReport.resx">
+      <DependentUpon>AttendanceReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AttendanceReportSearch.resx">
+      <DependentUpon>AttendanceReportSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuyTicket.resx">
+      <DependentUpon>BuyTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashConfirmation.resx">
+      <DependentUpon>CashConfirmation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateSchedule.resx">
+      <DependentUpon>CreateSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaymentQuantity.resx">
+      <DependentUpon>PaymentQuantity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemovePainting.resx">
+      <DependentUpon>RemovePainting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditPainting.resx">
+      <DependentUpon>EditPainting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditStaff.resx">
+      <DependentUpon>EditStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertAttendance.resx">
+      <DependentUpon>InsertAttendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Painting.resx">
+      <DependentUpon>Painting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaintingSearch.resx">
+      <DependentUpon>PaintingSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registrar.resx">
+      <DependentUpon>Registrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoveStaff.resx">
+      <DependentUpon>RemoveStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesReport.resx">
+      <DependentUpon>SalesReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesReportSearch.resx">
+      <DependentUpon>SalesReportSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffManager.resx">
+      <DependentUpon>StaffManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuccessfulPayment.resx">
+      <DependentUpon>SuccessfulPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TourGuide.resx">
+      <DependentUpon>TourGuide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesAgent.resx">
+      <DependentUpon>SalesAgent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UnsuccessfulPayment.resx">
+      <DependentUpon>UnsuccessfulPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewPaintingSearch.resx">
+      <DependentUpon>ViewPaintingSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffSearch.resx">
+      <DependentUpon>StaffSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

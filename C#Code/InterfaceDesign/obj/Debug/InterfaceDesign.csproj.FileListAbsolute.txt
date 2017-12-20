@@ -1,0 +1,49 @@
+c:\users\7oda9\onedrive\documents\visual studio 2015\Projects\InterfaceDesign\InterfaceDesign\bin\Debug\InterfaceDesign.exe.config
+c:\users\7oda9\onedrive\documents\visual studio 2015\Projects\InterfaceDesign\InterfaceDesign\bin\Debug\InterfaceDesign.exe
+c:\users\7oda9\onedrive\documents\visual studio 2015\Projects\InterfaceDesign\InterfaceDesign\bin\Debug\InterfaceDesign.pdb
+c:\users\7oda9\onedrive\documents\visual studio 2015\Projects\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.csprojResolveAssemblyReference.cache
+c:\users\7oda9\onedrive\documents\visual studio 2015\Projects\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.Properties.Resources.resources
+c:\users\7oda9\onedrive\documents\visual studio 2015\Projects\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.csproj.GenerateResource.Cache
+c:\users\7oda9\onedrive\documents\visual studio 2015\Projects\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.exe
+c:\users\7oda9\onedrive\documents\visual studio 2015\Projects\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.pdb
+C:\Users\7oda9\OneDrive\Documents\Visual Studio 2015\Projects\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.AddPainting.resources
+C:\Users\7oda9\OneDrive\Documents\Visual Studio 2015\Projects\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.AttendanceReport.resources
+C:\Users\7oda9\OneDrive\Documents\Visual Studio 2015\Projects\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.DeletePainting.resources
+C:\Users\7oda9\OneDrive\Documents\Visual Studio 2015\Projects\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.EditPainting.resources
+C:\Users\7oda9\OneDrive\Documents\Visual Studio 2015\Projects\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.PaintingSearch.resources
+C:\Users\7oda9\OneDrive\Documents\Visual Studio 2015\Projects\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.MainMenu.resources
+C:\Users\7oda9\OneDrive\Documents\Visual Studio 2015\Projects\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.Admin.resources
+C:\Users\7oda9\OneDrive\Documents\Visual Studio 2015\Projects\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.StaffManager.resources
+C:\Users\7oda9\OneDrive\Documents\Visual Studio 2015\Projects\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.TourGuide.resources
+C:\Users\7oda9\OneDrive\Documents\Visual Studio 2015\Projects\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.SalesAgent.resources
+C:\Users\7oda9\OneDrive\Documents\Visual Studio 2015\Projects\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.SalesReport.resources
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\bin\Debug\InterfaceDesign.exe.config
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.exe
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.pdb
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.AddPainting.resources
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.AddWorker.resources
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.AttendanceReport.resources
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.BuyTicket.resources
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.CreateSchedule.resources
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.DeletePainting.resources
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.EditPainting.resources
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.EditWorker.resources
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.InsertAttendance.resources
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.Painting.resources
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.PaintingSearch.resources
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.MainMenu.resources
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.Admin.resources
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.RemoveWorker.resources
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.SalesReport.resources
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.StaffManager.resources
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.SuccessfulPayment.resources
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.TourGuide.resources
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.SalesAgent.resources
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.Properties.Resources.resources
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.UnsuccessfulPayment.resources
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.ViewPaintingSearch.resources
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.WorkerSearch.resources
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\obj\Debug\InterfaceDesign.csproj.GenerateResource.Cache
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\bin\Debug\InterfaceDesign.exe
+C:\Users\lenovo\Desktop\InterfaceDesign\InterfaceDesign\bin\Debug\InterfaceDesign.pdb
